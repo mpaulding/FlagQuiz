@@ -9,7 +9,7 @@
     android:persistent="true"
     android:defaultValue="4" />
 
-    <ListPreference
+    <MultiSelectListPreference
         android:entries="@array/regions_list_for_settings"
         android:entryValues="@array/regions_list"
         android:key="pref_regionsToInclude"
